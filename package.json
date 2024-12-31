@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "{{ project-name }}",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "{{ authors }}",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241230.0",
+    "prettier": "^1.18.2",
+    "typescript": "^5.7.2",
+    "wrangler": "^3.99.0"
+  }
+}
